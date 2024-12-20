@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Storybook</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="storybook">
+      <h1>Choose Your Adventure</h1>
+      <p class="story-text" id="story-text">
+        You find yourself standing at the edge of a mysterious forest. The air
+        smells of pine, and a faint trail leads into the woods. Do you choose to
+        follow the trail or stay where you are?
+      </p>
+      <button class="choice" onclick="choosePath('trail')">
+        Follow the trail
+      </button>
+      <button class="choice" onclick="choosePath('stay')">
+        Stay where you are
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
